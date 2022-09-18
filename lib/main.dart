@@ -1,3 +1,4 @@
+import 'package:cgpa_calculator/ui/screens/splash_screen/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'ui/screens/homepage/homepage.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      home: const SplashScreen(),
     );
   }
 }
